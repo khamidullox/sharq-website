@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@plugin "daisyui";
+/* Убедитесь, что переменная шрифта применена */
+@font-face {
+  font-family: "Argue Demo";
+  src: url("/fonts/ArgueDemo.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: var(--font-playfair-display);
+}
+
+@layer components {
+  .fontArgue {
+    font-family: "Argue DEMO", sans-serif;
+  }
+}
