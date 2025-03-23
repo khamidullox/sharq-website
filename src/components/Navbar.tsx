@@ -82,7 +82,7 @@ function Navbar() {
             >
               <li>
                 <Link
-                  href="#taomlar-home"
+                  href="#home"
                   className=" group-hover:text-black transition-colors   text-xl hover:bg-amber-50 hover:text-black  "
                 >
                   Assosiy
@@ -90,7 +90,7 @@ function Navbar() {
               </li>
               <li>
                 <Link
-                  href=""
+                  href="#taomlar-home"
                   className=" group-hover:text-black transition-colors  text-xl hover:bg-amber-50 hover:text-black"
                 >
                   Taomlar

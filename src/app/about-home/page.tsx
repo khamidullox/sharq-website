@@ -4,10 +4,10 @@ function AboutHome() {
   return (
     <section
       id="about-home"
-      className="relative w-full min-h-screen bg-cover px-28  bg-no-repeat"
+      className="relative w-full min-h-screen bg-cover px-10  bg-no-repeat"
       style={{ backgroundImage: "url('/bg-black.jpg')" }}
     >
-      <div className=" py-32 p">
+      <div className=" py-32">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="lg:text-5xl text-3xl font-bold pt-20 pb-8  uppercase tracking-wide">
             Biz Haqimizda

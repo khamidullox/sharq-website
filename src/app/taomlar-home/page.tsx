@@ -5,13 +5,13 @@ import Link from "next/link";
 function TaomlarHome() {
   return (
     <section
-      className="relative w-full min-h-screen bg-cover px-28  bg-no-repeat"
+      className="relative w-full min-h-screen bg-cover px-10 content-center  bg-no-repeat"
       style={{ backgroundImage: "url('/bg-black.jpg')" }}
       id="taomlar-home"
     >
       {/* <h1>Whereas recognition of the inherent dignity</h1> */}
 
-      <ul className=" flex justify-between min-h-screen  flex-wrap gap-16 py-16 items-center">
+      <ul className=" flex justify-between items-center min-h-screen lg:px-5 md:pl-56 sm:pl-24   flex-wrap gap-16 py-16 ">
         {taomlar.map((item, id) => {
           return (
             <Link
