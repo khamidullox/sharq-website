@@ -9,9 +9,9 @@ function Navbar() {
           <img
             src="/sharqLogo.jpg"
             alt="logo"
-            width="200"
-            height="30"
-            className="size-20 w-50"
+            width="120"
+            height=""
+            className=""
           />
         </div>
 

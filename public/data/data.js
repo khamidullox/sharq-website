@@ -11,7 +11,7 @@ export let taomlar = [
   },
   {
     blok: "Napitka",
-    img: "https://png.pngtree.com/thumb_back/fw800/background/20231106/pngtree-bird-s-eye-perspective-of-a-black-teapot-adorned-with-textured-image_13748146.png",
+    img: "https://www.advantour.com/img/uzbekistan/cuisine/tea_sm.jpg",
     href: "/chay",
   },
 ];

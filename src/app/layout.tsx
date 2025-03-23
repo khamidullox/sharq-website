@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" className=" scroll-smooth">
       <body
-        className={`${playfairDisplay.variable} container mx-auto text-white bg-black h-full `}
+        className={`${playfairDisplay.variable}   mx-auto text-white bg-black h-full `}
       >
         <Navbar />
         <>{children}</>

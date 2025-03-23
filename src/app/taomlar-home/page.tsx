@@ -23,7 +23,7 @@ function TaomlarHome() {
                 <img
                   src={item.img}
                   alt="Shoes"
-                  className=" object-top h-58 w-full"
+                  className=" object-top object-contain w-full"
                 />
               </figure>
               <div className="card-body">

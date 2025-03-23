@@ -13,6 +13,6 @@ body {
 
 @layer components {
   .fontArgue {
-    font-family: "Argue DEMO", sans-serif;
+    font-family: "Argue DEMO", var(--font-playfair-display);
   }
 }
