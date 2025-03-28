@@ -1,6 +1,7 @@
 import React from "react";
 import InfoCard from "@/components/InfoCard";
-import { Link } from "lucide-react";
+import Link from "next/link";
+
 function AboutHome() {
   return (
     <section
@@ -46,7 +47,7 @@ function AboutHome() {
               href="https://www.instagram.com/choyxona_sharq/"
               target="_blank"
             >
-              O'tish
+              O&apos;tish
             </Link>
           </div>
         </div>

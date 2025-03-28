@@ -31,12 +31,12 @@ function Navbar() {
             </li>
 
             <li className="relative group px-4 py-16 overflow-hidden">
-              <a
+              <Link
                 href="/taomlar-home"
                 className="relative z-10 group-hover:text-black transition-colors duration-700"
               >
                 Taomlar
-              </a>
+              </Link>
               <div className="absolute left-0 bottom-3 top-5 w-full h-0 bg-white transition-all duration-700 group-hover:h-24"></div>
             </li>
             <li className="relative group px-4 py-16 overflow-hidden">
@@ -52,12 +52,12 @@ function Navbar() {
         </nav>
         <div className="navbar-end">
           <div>
-            <a
+            <Link
               href="tel:+998954007500"
               className="btn btn-ghost font-bold text-xl hidden md:flex"
             >
               Boglanish | Buyurtma berish
-            </a>
+            </Link>
           </div>
 
           <div className="dropdown dropdown-end md:hidden ">
@@ -111,12 +111,12 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/"
                   className="group-hover:text-black transition-colors  text-xl mt-2 btn  hover:bg-amber-50 hover:text-black"
                 >
                   Boglanish
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
