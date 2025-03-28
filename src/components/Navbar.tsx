@@ -6,20 +6,23 @@ function Navbar() {
     <div className=" fixed z-10 w-full">
       <div className="navbar  bg-black text-white h-20  ">
         <div className=" navbar-start">
-          <img
-            src="/sharqLogo.jpg"
-            alt="logo"
-            width="120"
-            height=""
-            className=""
-          />
+          <Link href="/">
+            {" "}
+            <img
+              src="/sharqLogo.jpg"
+              alt="logo"
+              width="120"
+              height=""
+              className=""
+            />
+          </Link>
         </div>
 
         <nav className=" navbar-center hidden md:flex ">
           <ul className="flex gap-8 m-0 p-0 list-none text-lg font-semibold tracking-widest">
             <li className="relative group px-4 py-16 overflow-hidden">
               <Link
-                href="#home"
+                href="/"
                 className="relative z-10 group-hover:text-black transition-colors duration-700  "
               >
                 Assosiy
@@ -29,7 +32,7 @@ function Navbar() {
 
             <li className="relative group px-4 py-16 overflow-hidden">
               <a
-                href="#taomlar-home"
+                href="/taomlar-home"
                 className="relative z-10 group-hover:text-black transition-colors duration-700"
               >
                 Taomlar
@@ -38,7 +41,7 @@ function Navbar() {
             </li>
             <li className="relative group px-4 py-16 overflow-hidden">
               <Link
-                href="#about-home"
+                href="/about-home"
                 className="relative z-10 group-hover:text-black transition-colors duration-700"
               >
                 Biz haqimizda
@@ -49,9 +52,12 @@ function Navbar() {
         </nav>
         <div className="navbar-end">
           <div>
-            <button className="btn btn-ghost font-bold text-xl hidden md:flex">
+            <a
+              href="tel:+998954007500"
+              className="btn btn-ghost font-bold text-xl hidden md:flex"
+            >
               Boglanish | Buyurtma berish
-            </button>
+            </a>
           </div>
 
           <div className="dropdown dropdown-end md:hidden ">
@@ -82,7 +88,7 @@ function Navbar() {
             >
               <li>
                 <Link
-                  href="#home"
+                  href="/"
                   className=" group-hover:text-black transition-colors   text-xl hover:bg-amber-50 hover:text-black  "
                 >
                   Assosiy
@@ -90,7 +96,7 @@ function Navbar() {
               </li>
               <li>
                 <Link
-                  href="#taomlar-home"
+                  href="/taomlar-home"
                   className=" group-hover:text-black transition-colors  text-xl hover:bg-amber-50 hover:text-black"
                 >
                   Taomlar
@@ -98,19 +104,19 @@ function Navbar() {
               </li>
               <li>
                 <Link
-                  href="#about-home"
+                  href="tel:+998954007500"
                   className="group-hover:text-black transition-colors  text-xl hover:bg-amber-50 hover:text-black"
                 >
                   Biz haqimizda
                 </Link>
               </li>
               <li>
-                <Link
+                <a
                   href="/"
                   className="group-hover:text-black transition-colors  text-xl mt-2 btn  hover:bg-amber-50 hover:text-black"
                 >
                   Boglanish
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

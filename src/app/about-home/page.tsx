@@ -35,6 +35,20 @@ function AboutHome() {
             description="Bizning taomlarimizni tatib ko‘rgan har bir mijoz mamnun."
           />
         </div>
+        <div className=" text-center flex items-center  justify-center py-16 gap-6">
+          <img src="/instagram.png" alt="" className="size-28" />
+          <div className=" flex items-start flex-col tracking-wider font-bold text-xl gap-2">
+            <h4 className=" tracking-widest ">Instagram </h4>
+            <p className=" tracking-widest">choyxona_sharq</p>
+            <a
+              className="text-end w-full text-xl btn btn-primary"
+              href="https://www.instagram.com/choyxona_sharq/"
+              target="_blank"
+            >
+              O'tish
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
