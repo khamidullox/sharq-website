@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { salats } from "../../../../public/data/data";
 import CardItem from "@/components/CardItem";
 import Link from "next/link";
@@ -14,13 +14,15 @@ function Salt() {
         <ul className="grid lg:grid-cols-3 gap-16 md:grid-cols-2 grid-cols-1 ">
           {salats.salat.map((item, id) => {
             return (
-              <CardItem
-                id={id}
-                img={item.img}
-                name={item.name}
-                price={item.price}
-                description={item.description}
-              />
+              <Fragment key={id}>
+                <CardItem
+                  id={id}
+                  img={item.img}
+                  name={item.name}
+                  price={item.price}
+                  description={item.description}
+                />
+              </Fragment>
             );
           })}
         </ul>

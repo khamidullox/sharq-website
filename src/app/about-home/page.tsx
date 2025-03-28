@@ -1,5 +1,6 @@
 import React from "react";
 import InfoCard from "@/components/InfoCard";
+import { Link } from "lucide-react";
 function AboutHome() {
   return (
     <section
@@ -40,13 +41,13 @@ function AboutHome() {
           <div className=" flex items-start flex-col tracking-wider font-bold text-xl gap-2">
             <h4 className=" tracking-widest ">Instagram </h4>
             <p className=" tracking-widest">choyxona_sharq</p>
-            <a
+            <Link
               className="text-end w-full text-xl btn btn-primary"
               href="https://www.instagram.com/choyxona_sharq/"
               target="_blank"
             >
               O'tish
-            </a>
+            </Link>
           </div>
         </div>
       </div>

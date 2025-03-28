@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { taomalrs } from "../../../../public/data/data";
 import CardItem from "@/components/CardItem";
 import Link from "next/link";
@@ -17,13 +17,15 @@ function Taomlars() {
         <ul className="grid lg:grid-cols-3 gap-16 md:grid-cols-2 grid-cols-1 ">
           {taomalrs.setlar.map((item, id) => {
             return (
-              <CardItem
-                id={id * Math.random()}
-                img={item.img}
-                name={item.name}
-                price={item.price}
-                description={item.description}
-              />
+              <Fragment key={id}>
+                <CardItem
+                  id={id}
+                  img={item.img}
+                  name={item.name}
+                  price={item.price}
+                  description={item.description}
+                />
+              </Fragment>
             );
           })}
         </ul>
@@ -31,13 +33,15 @@ function Taomlars() {
         <ul className="grid lg:grid-cols-3 gap-16 md:grid-cols-2 grid-cols-1 ">
           {taomalrs.osh.map((item, id) => {
             return (
-              <CardItem
-                id={id * Math.random()}
-                img={item.img}
-                name={item.name}
-                price={item.price}
-                description={item.description}
-              />
+              <Fragment key={id}>
+                <CardItem
+                  id={id}
+                  img={item.img}
+                  name={item.name}
+                  price={item.price}
+                  description={item.description}
+                />
+              </Fragment>
             );
           })}
         </ul>
@@ -45,13 +49,15 @@ function Taomlars() {
         <ul className="grid lg:grid-cols-3 gap-16 md:grid-cols-2 grid-cols-1 ">
           {taomalrs.boshqa.map((item, id) => {
             return (
-              <CardItem
-                id={id * Math.random()}
-                img={item.img}
-                name={item.name}
-                price={item.price}
-                description={item.description}
-              />
+              <Fragment key={id}>
+                <CardItem
+                  id={id}
+                  img={item.img}
+                  name={item.name}
+                  price={item.price}
+                  description={item.description}
+                />
+              </Fragment>
             );
           })}
         </ul>
