@@ -1,7 +1,7 @@
 export const taomlar = [
   {
     blok: "Taomalr",
-    img: "https://food.pibig.info/uploads/posts/2023-08/thumbs/1693426942_food-pibig-info-p-vkusnii-obichai-plov-oboi-1.jpg",
+    img: "https://images.stroistyle.com/posts/9779697-osh-kukhnia-1.jpg",
     href: "/taomlar/taomlars",
   },
   {
@@ -174,3 +174,22 @@ export const salats = {
     },
   ],
 };
+
+export const navabrLink = [
+  {
+    href: "/",
+    name: "Assosiy",
+  },
+  {
+    href: "/taomlar-home",
+    name: "Taomlar",
+  },
+  {
+    href: "/room-home",
+    name: "Xonalar",
+  },
+  {
+    href: "/about-home",
+    name: "Biz haqimizda",
+  },
+];

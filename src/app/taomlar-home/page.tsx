@@ -6,7 +6,7 @@ function TaomlarHome() {
   return (
     <section
       className="relative w-full min-h-screen bg-cover px-10 content-center  bg-no-repeat"
-      style={{ backgroundImage: "url('/bg-black.jpg')" }}
+      style={{ backgroundImage: "url('/img/bg-black.jpg')" }}
       id="taomlar-home"
     >
       {/* <h1>Whereas recognition of the inherent dignity</h1> */}
@@ -22,7 +22,7 @@ function TaomlarHome() {
               <figure>
                 <img
                   src={item.img}
-                  alt="Shoes"
+                  alt={item.blok}
                   className=" object-top object-contain w-full"
                 />
               </figure>

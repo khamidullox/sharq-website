@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { navabrLink } from "../../public/data/data";
 
 function Navbar() {
   return (
@@ -9,7 +10,7 @@ function Navbar() {
           <Link href="/">
             {" "}
             <img
-              src="/sharqLogo.jpg"
+              src="/img/sharqLogo.jpg"
               alt="logo"
               width="120"
               height=""
@@ -17,46 +18,33 @@ function Navbar() {
             />
           </Link>
         </div>
-
         <nav className=" navbar-center hidden md:flex ">
           <ul className="flex gap-8 m-0 p-0 list-none text-lg font-semibold tracking-widest">
-            <li className="relative group px-4 py-16 overflow-hidden">
-              <Link
-                href="/"
-                className="relative z-10 group-hover:text-black transition-colors duration-700  "
-              >
-                Assosiy
-              </Link>
-              <div className="absolute left-0 bottom-3 top-5 w-full h-0 bg-white transition-all duration-700 group-hover:h-24"></div>
-            </li>
-
-            <li className="relative group px-4 py-16 overflow-hidden">
-              <Link
-                href="/taomlar-home"
-                className="relative z-10 group-hover:text-black transition-colors duration-700"
-              >
-                Taomlar
-              </Link>
-              <div className="absolute left-0 bottom-3 top-5 w-full h-0 bg-white transition-all duration-700 group-hover:h-24"></div>
-            </li>
-            <li className="relative group px-4 py-16 overflow-hidden">
-              <Link
-                href="/about-home"
-                className="relative z-10 group-hover:text-black transition-colors duration-700"
-              >
-                Biz haqimizda
-              </Link>
-              <div className="absolute left-0 bottom-3 top-5 w-full h-0 bg-white transition-all duration-700 group-hover:h-24"></div>
-            </li>
+            {navabrLink.map((item, id) => {
+              return (
+                <li
+                  key={id}
+                  className="relative group px-4 py-16 overflow-hidden"
+                >
+                  <Link
+                    href={item.href}
+                    className="relative z-10 group-hover:text-black transition-colors duration-700 text-2xl  "
+                  >
+                    {item.name}
+                  </Link>
+                  <div className="absolute left-0 bottom-3 top-5 w-full h-0 bg-white transition-all duration-700 group-hover:h-24"></div>
+                </li>
+              );
+            })}
           </ul>
         </nav>
         <div className="navbar-end">
           <div>
             <Link
               href="tel:+998954007500"
-              className="btn btn-ghost font-bold text-xl hidden md:flex"
+              className=" font-bold text-xl hidden md:flex border border-e-white p-2 px-3 duration-700 rounded-xs hover:bg-amber-50 hover:text-black  "
             >
-              Boglanish | Buyurtma berish
+              Boglanish
             </Link>
           </div>
 
@@ -86,34 +74,23 @@ function Navbar() {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-blck  rounded-box z-1 mt-3 w-52 p-2 shadow bg-black "
             >
-              <li>
-                <Link
-                  href="/"
-                  className=" group-hover:text-black transition-colors   text-xl hover:bg-amber-50 hover:text-black  "
-                >
-                  Assosiy
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/taomlar-home"
-                  className=" group-hover:text-black transition-colors  text-xl hover:bg-amber-50 hover:text-black"
-                >
-                  Taomlar
-                </Link>
-              </li>
+              {navabrLink.map((item, id) => {
+                return (
+                  <li key={id}>
+                    <Link
+                      href={item.href}
+                      className=" group-hover:text-black transition-colors   text-xl hover:bg-amber-50 hover:text-black  "
+                    >
+                      {item.name}
+                    </Link>
+                  </li>
+                );
+              })}
               <li>
                 <Link
                   href="tel:+998954007500"
-                  className="group-hover:text-black transition-colors  text-xl hover:bg-amber-50 hover:text-black"
-                >
-                  Biz haqimizda
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/"
-                  className="group-hover:text-black transition-colors  text-xl mt-2 btn  hover:bg-amber-50 hover:text-black"
+                  // className="group-hover:text-black transition-colors  text-xl mt-2 btn  hover:bg-amber-50 hover:text-black"
+                  className="border border-e-white p-2 px-3 duration-700  text-xl mt-2  rounded-xs hover:bg-amber-50 hover:text-black"
                 >
                   Boglanish
                 </Link>

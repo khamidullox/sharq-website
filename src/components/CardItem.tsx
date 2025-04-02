@@ -15,7 +15,7 @@ function CardItem({ id, img, name, description, price }: CardItem) {
       <figure>
         <img
           src={img}
-          alt="SET"
+          alt={name}
           className=" object-top object-contain w-full"
         />
       </figure>
