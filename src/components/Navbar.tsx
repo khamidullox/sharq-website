@@ -42,7 +42,7 @@ function Navbar() {
           <div>
             <Link
               href="tel:+998954007500"
-              className=" font-bold text-xl hidden md:flex border border-e-white p-2 px-3 duration-700 rounded-xs hover:bg-amber-50 hover:text-black  "
+              className=" font-bold text-xl hidden md:flex border border-e-white p-2 px-3 duration-700 rounded-xs hover:bg-white hover:text-black  "
             >
               Boglanish
             </Link>
@@ -79,7 +79,7 @@ function Navbar() {
                   <li key={id}>
                     <Link
                       href={item.href}
-                      className=" group-hover:text-black transition-colors   text-xl hover:bg-amber-50 hover:text-black  "
+                      className=" group-hover:text-black transition-colors   text-xl hover:bg-white hover:text-black  "
                     >
                       {item.name}
                     </Link>
@@ -90,7 +90,7 @@ function Navbar() {
                 <Link
                   href="tel:+998954007500"
                   // className="group-hover:text-black transition-colors  text-xl mt-2 btn  hover:bg-amber-50 hover:text-black"
-                  className="border border-e-white p-2 px-3 duration-700  text-xl mt-2  rounded-xs hover:bg-amber-50 hover:text-black"
+                  className="border border-e-white p-2 px-3 duration-700  text-xl mt-2  rounded-xs hover:bg-white hover:text-black"
                 >
                   Boglanish
                 </Link>

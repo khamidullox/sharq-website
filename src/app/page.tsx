@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "./home/page";
 
 import Taomlar from "./taomlar-home/page";
@@ -15,5 +14,4 @@ function Main() {
     </>
   );
 }
-RoomHome;
 export default Main;

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ReactNode } from "react";
 
 function InfoCard({
   icon,
@@ -23,6 +24,7 @@ function InfoCard({
             <Link
               href="https://maps.app.goo.gl/8vEDbPZkpuyzsaZo8"
               className="text-lg link-hover hover:text-blue-100"
+              target="_blank"
             >
               {" "}
               {description}
@@ -34,7 +36,7 @@ function InfoCard({
       </div>
       {title == "Manzil" ? (
         <Link
-          className="font-bold text-xl border border-e-white p-2 px-3 hover:p-8 duration-700 rounded-xs hover:bg-amber-50 hover:text-black hover:border-black "
+          className="font-bold text-xl border border-e-white p-2 px-3 hover:p-8 duration-700 rounded-xs hover:bg-white hover:text-black hover:border-black "
           href="https://maps.app.goo.gl/8vEDbPZkpuyzsaZo8"
           target="_blank"
         >
