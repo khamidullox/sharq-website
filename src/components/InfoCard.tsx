@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ReactNode } from "react";
-
 function InfoCard({
   icon,
   title,
@@ -10,7 +9,7 @@ function InfoCard({
   icon?: string;
   title: string;
   description: string;
-  iocnImport?: any;
+  iocnImport?: ReactNode;
 }) {
   return (
     <div className="flex items-center justify-center gap-8 md:w-[580px] w-full">
