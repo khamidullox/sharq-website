@@ -193,3 +193,24 @@ export const navabrLink = [
     name: "Biz haqimizda",
   },
 ];
+
+export const roomHome = [
+  {
+    img: "https://avatars.dzeninfra.ru/get-zen_doc/1108048/pub_5e95c18cbfc9630fd0a34725_5e95cc86984e257a19710186/scale_1200",
+    name: "Kichik",
+    roomNumber: 10,
+    price: 300,
+  },
+  {
+    img: "https://avatars.mds.yandex.net/get-altay/941278/2a00000185cdc9e27279950f33d999e42481/L_height",
+    name: "Ortacha",
+    roomNumber: 18,
+    price: 500,
+  },
+  {
+    img: "https://avatars.mds.yandex.net/get-altay/11004775/2a0000018c7399373a82d5c6d4fa532c9ae2/L_height",
+    name: "Kotta ",
+    roomNumber: 25,
+    price: 8000,
+  },
+];

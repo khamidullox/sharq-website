@@ -3,14 +3,14 @@ interface CardItem {
   img: string;
   name: string;
   description: string;
-  price: string;
+  price: string | number;
 }
 
 function CardItem({ id, img, name, description, price }: CardItem) {
   return (
     <li
       key={id * Math.random()}
-      className="card bg-base-100 text-black w-96 h-96 object-center hover:shadow-white hover:shadow-sm transition-transform duration-300 hover:scale-105 "
+      className="card bg-base-100 text-black w-96 h-96 justify-center object-center hover:shadow-white hover:shadow-sm transition-transform duration-300 hover:scale-105 "
     >
       <figure>
         <img
