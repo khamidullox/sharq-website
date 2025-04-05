@@ -13,7 +13,7 @@ function AboutHome() {
   return (
     <section
       id="about-home"
-      className="relative w-full min-h-screen bg-cover px-10  bg-no-repeat"
+      className="relative w-full min-h-screen bg-cover px-10 md:pl-16 sm:pl-2  bg-no-repeat"
       style={{ backgroundImage: "url('/img/bg-black.jpg')" }}
     >
       <div className=" py-32">
@@ -53,18 +53,18 @@ function AboutHome() {
             iocnImport={<LuMapPinned className="size-28" />}
           />
           <div className="flex items-center  md:w-[580px] w-full">
-            <div className="flex gap-8 items-center justify-between ">
+            <div className="flex md:gap-0 gap-2 w-full items-center justify-between md:text-base text-xs ">
               {/* <img src="/img/instagram.png" alt="" className="size-28" /> */}
-              <CiInstagram className="size-28" />
-              <div className=" flex flex-col gap-4 ">
-                <h3 className=" text-3xl font-bold tracking-wider">
+              <CiInstagram className="md:size-28 size-16" />
+              <div className=" text-xs flex flex-col md:gap-4 ">
+                <h3 className=" md:text-3xl text-lg font-bold tracking-wider">
                   {" "}
                   Instagram
                 </h3>
                 <Link
                   href="https://www.instagram.com/choyxona_sharq/"
                   target="_blank"
-                  className="text-2xl tracking-widest  link-hover hover:text-blue-100"
+                  className="md:text-2xl text-lg  tracking-widest  link-hover hover:text-blue-100"
                 >
                   @choyxona_sharq
                 </Link>

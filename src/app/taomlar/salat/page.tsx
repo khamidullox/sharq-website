@@ -11,7 +11,7 @@ function Salt() {
     >
       <div className="  pt-40  text-white px-16">
         <h3 className="text-5xl font-bold pb-10 text-center"></h3>
-        <ul className="grid lg:grid-cols-3 gap-16 md:grid-cols-2 grid-cols-1 ">
+        <ul className="flex justify-between items-center  lg:px-5 md:px-32   flex-wrap gap-16 ">
           {salats.salat.map((item, id) => {
             return (
               <Fragment key={id}>

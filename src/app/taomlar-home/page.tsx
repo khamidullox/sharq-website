@@ -11,7 +11,7 @@ function TaomlarHome() {
     >
       {/* <h1>Whereas recognition of the inherent dignity</h1> */}
 
-      <ul className=" flex justify-between items-center min-h-screen lg:px-5 md:pl-56 sm:pl-   flex-wrap gap-16 py-16 ">
+      <ul className=" flex justify-between items-center min-h-screen lg:px-5 md:px-32 w-full   flex-wrap gap-16 py-16 ">
         {taomlar.map((item, id) => {
           return (
             <Link

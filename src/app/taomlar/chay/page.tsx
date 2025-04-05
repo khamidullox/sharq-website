@@ -13,7 +13,7 @@ function Chay() {
       {/* Текст (адаптивный размер) */}
       <div className="  pt-40  text-white px-16">
         <h3 className="text-5xl font-bold pb-10 text-center">Choy</h3>
-        <ul className="grid lg:grid-cols-3 gap-16 md:grid-cols-2 grid-cols-1 ">
+        <ul className="flex justify-between items-center mih-screen lg:px-5 md:px-32   flex-wrap gap-16 ">
           {choylar.choy.map((item, id) => {
             return (
               <Fragment key={id}>
@@ -29,7 +29,7 @@ function Chay() {
           })}
         </ul>
         <h3 className="text-5xl font-bold py-10 text-center">Suvlar</h3>
-        <ul className="grid lg:grid-cols-3 gap-16 md:grid-cols-2 grid-cols-1 ">
+        <ul className="flex justify-between items-center min-screen lg:px-5 md:px-32   flex-wrap gap-16 ">
           {choylar.suv.map((item, id) => {
             return (
               <Fragment key={id}>
@@ -44,9 +44,9 @@ function Chay() {
             );
           })}
         </ul>
-        <p className=" text-end pr-16 pt-16 flex justify-end gap-8 text-2xl font-bold tracking-widest">
+        <p className=" text-end md:pr-16 pt-16 flex justify-end gap-8 text-2xl font-bold tracking-widest">
           <Link className=" hover:link" href="/taomlar/taomlars">
-            &lt;-- Taomlar{" "}
+            &lt;-- Taomlar
           </Link>
           <span></span>
           <Link className=" hover:link" href="/taomlar/salat">
