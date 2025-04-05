@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { roomHome } from "../../../public/data/data";
-import Link from "next/link";
+
 import CardItem from "@/components/CardItem";
 
 function RoomHome() {
