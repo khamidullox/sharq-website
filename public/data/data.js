@@ -10,7 +10,7 @@ export const taomlar = [
     href: "/taomlar/salat",
   },
   {
-    blok: "Napitka",
+    blok: "Ichimliklar",
     img: "https://www.advantour.com/img/uzbekistan/cuisine/tea_sm.jpg",
     href: "/taomlar/chay",
   },
@@ -42,12 +42,12 @@ export const taomalrs = {
       price: "130,000 sum",
       description: "osh va salatar ",
     },
-    {
-      img: "https://beshqozon.uz/assets/images/assets/art4.jpg",
-      name: "Set",
-      price: "130,000 sum",
-      description: "osh va salatar ",
-    },
+    // {
+    //   img: "https://beshqozon.uz/assets/images/assets/art4.jpg",
+    //   name: "Set",
+    //   price: "130,000 sum",
+    //   description: "osh va salatar ",
+    // },
   ],
   osh: [
     {
@@ -74,12 +74,12 @@ export const taomalrs = {
       price: "55,000 sum",
       description: "osh tarkibi ",
     },
-    {
-      img: "https://lh5.googleusercontent.com/proxy/js5_MFU5cEgTpzQUKPp5DEIsk2mtF7I8P08eiQMSIUApkMLMShSG1q3uJVgWKWy8UbbiTemmBdYffQUFjRrV9Ac4Ir1xs4tmVw",
-      name: "Osh",
-      price: "55,000 sum",
-      description: "osh tarkibi ",
-    },
+    // {
+    //   img: "https://lh5.googleusercontent.com/proxy/js5_MFU5cEgTpzQUKPp5DEIsk2mtF7I8P08eiQMSIUApkMLMShSG1q3uJVgWKWy8UbbiTemmBdYffQUFjRrV9Ac4Ir1xs4tmVw",
+    //   name: "Osh",
+    //   price: "55,000 sum",
+    //   description: "osh tarkibi ",
+    // },
   ],
   boshqa: [
     {
@@ -196,21 +196,21 @@ export const navabrLink = [
 
 export const roomHome = [
   {
-    img: "https://avatars.dzeninfra.ru/get-zen_doc/1108048/pub_5e95c18cbfc9630fd0a34725_5e95cc86984e257a19710186/scale_1200",
+    img: "/img/10.png",
     name: "Kichik",
     roomNumber: 10,
     price: 300,
   },
   {
-    img: "https://avatars.mds.yandex.net/get-altay/941278/2a00000185cdc9e27279950f33d999e42481/L_height",
+    img: "/img/15.png",
     name: "Ortacha",
     roomNumber: 18,
     price: 500,
   },
   {
-    img: "https://avatars.mds.yandex.net/get-altay/11004775/2a0000018c7399373a82d5c6d4fa532c9ae2/L_height",
+    img: "/img/20.png",
     name: "Kotta ",
     roomNumber: 25,
-    price: 8000,
+    price: 800,
   },
 ];

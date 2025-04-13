@@ -6,11 +6,11 @@ import CardItem from "@/components/CardItem";
 function RoomHome() {
   return (
     <section
-      className="relative w-full min-h-screen bg-cover -top-20 bg-center bg-no-repeat pt-40  text-white px-16"
+      className="relative w-full min-h-screen bg-cover  bg-center bg-no-repeat   text-white px-16"
       id="taomlar-home"
     >
       <div className="    text-white">
-        <h3 className="text-4xl font-bold pb-10 text-center md:pr-0 sm:pr-2">
+        <h3 className="text-4xl font-bold pb-5  text-center md:pr-0 sm:pr-2">
           Xonalar
         </h3>
       </div>
@@ -53,7 +53,7 @@ function RoomHome() {
                 id={id}
                 img={item.img}
                 name={item.name}
-                price={item.price}
+                price={item.price + " so'm"}
                 description=""
               />
             </Fragment>
