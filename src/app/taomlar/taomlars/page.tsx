@@ -13,7 +13,7 @@ function Taomlars() {
 
       {/* Текст (адаптивный размер) */}
       <div className="  pt-40  text-white px-16">
-        <h3 className="text-5xl font-bold pb-10 text-center">Setlar</h3>
+        {/* <h3 className="text-5xl font-bold pb-10 text-center">Setlar</h3>
         <ul className="flex justify-between items-center  lg:px-5 md:px-32   flex-wrap gap-16 ">
           {taomalrs.setlar.map((item, id) => {
             return (
@@ -28,7 +28,7 @@ function Taomlars() {
               </Fragment>
             );
           })}
-        </ul>
+        </ul> */}
         <h3 className="text-5xl font-bold py-10 text-center">Oshlar</h3>
         <ul className="flex justify-between items-center mn-h-screen lg:px-5 md:px-32   flex-wrap gap-16 ">
           {taomalrs.osh.map((item, id) => {

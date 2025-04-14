@@ -16,7 +16,7 @@ function CardItem({ id, img, name, description, price }: CardItem) {
         <img
           src={img}
           alt={name}
-          className=" object-top object-contain w-full"
+          className=" object-top object-cover w-full  h-72"
         />
       </figure>
       <div className="card-body">
