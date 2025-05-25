@@ -1,6 +1,6 @@
 export const taomlar = [
   {
-    blok: "Taomalr",
+    blok: "Taomalar",
     img: "https://images.stroistyle.com/posts/9779697-osh-kukhnia-1.jpg",
     href: "/taomlar/taomlars",
   },
@@ -64,7 +64,7 @@ export const taomalrs = {
     },
     {
       img: "https://sotni.ru/wp-content/uploads/2023/08/devzira-osh-1.webp",
-      name: "Qora qiltirig",
+      name: "Qora qiltirik",
       price: "250,000 so'm",
       description: " ",
     },
@@ -90,7 +90,7 @@ export const taomalrs = {
     },
     {
       img: "https://img-fotki.yandex.ru/get/6104/22105268.32/0_6cab7_68da45_XL.jpg",
-      name: "Pirajok (killo)",
+      name: "Pirajok (kg)",
       price: "180,000 so'm",
       description: " ",
     },
@@ -103,7 +103,7 @@ export const taomalrs = {
     },
     {
       img: "https://i.ytimg.com/vi/J1JEs2_nkr8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDuq-I1bqeiEYsuPZ9ahaYOXRbxuQ",
-      name: "Achiq gosht",
+      name: "Achchiq go'sht",
       price: "180,000 so'm",
       description: " ",
     },
@@ -120,19 +120,19 @@ export const choylar = {
   choy: [
     {
       img: "https://fergana.agency/siteapi/media/images/99f17a3a-1fd7-462c-a49e-ac255d54c5d4.jpeg",
-      name: "Kok choy",
+      name: "Ko'k choy",
       price: "0",
       description: "",
     },
     {
       img: "https://masterpiecer-images.s3.yandex.net/6aed7e0f9f6f11ee9a70aafa25a5c924:upscaled",
-      name: "Limon choy ",
+      name: "Limonli choy ",
       price: "8,000",
       description: "",
     },
     {
       img: "https://images.gastronom.ru/8v7apUPjtmcCHNoLE29l9yGhLnw0p_xjHFHoHFVaQn8/pr:article-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzE1ZDE2OTJiLTMzNjItNGMxZS1iYWU3LTA5ZjE5Yzc4NjE5MS5qcGc.webp",
-      name: "Novvot choy",
+      name: "Navvotli choy",
       price: "8,000",
       description: "",
     },
